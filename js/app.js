@@ -1,4 +1,5 @@
-// section que acomoda todas as cartas
+const year = document.querySelector("#year")
+const thisYear = new Date().getFullYear()
 let sectionConteudos = document.querySelector(".container");
 
 // =======CALL JSON DATA========
@@ -106,3 +107,8 @@ displayScreen(4);
 displayScreen(5);
 displayScreen(6);
 displayScreen(7);
+
+
+//====SET YEAR=========
+year.setAttribute("datetime", thisYear)
+year.textContent = thisYear
