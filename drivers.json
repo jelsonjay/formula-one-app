@@ -15,7 +15,7 @@
       "date_of_birth": "30/09/1997",
       "carNumber": 1,
       "height": 81,
-      "image": "./images/verstappen.jpg"
+      "image": "../images/verstappen.jpg"
     },
     {
       "id": 2,
